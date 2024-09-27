@@ -19,7 +19,7 @@ import { USER_API_END_POINT } from '@/utils/constant'
     role: "",
     file: ""
   });
-  const navigate = useNavigate;
+  const navigate = useNavigate();
   const changeEventHandler = (e) => {
     setInput({ ...input, [e.target.name]: e.target.value });
 }

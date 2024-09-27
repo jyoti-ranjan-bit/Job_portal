@@ -25,7 +25,7 @@ const SignUp = () => {
     const changeFileHandler = (e) => {
         setInput({ ...input, file: e.target.files?.[0] });
     }
-   const navigate= useNavigate;
+   const navigate= useNavigate();
     const submitHandler = async (e) => {
         e.preventDefault();
         const formData = new FormData();    //formdata object
